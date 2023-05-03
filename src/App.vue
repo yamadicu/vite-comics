@@ -45,6 +45,46 @@
   <div class="content">
     <h1><a href="#">Content gose here</a></h1>
   </div>
+
+  <!-- MERCHANDISE -->
+  <div class="bg-blue">
+
+    <div class="merch">
+
+      <img src="/img/buy-comics-digital-comics.png" alt="immagine digital comics">
+      <span class="white">DIGITAL COMICS</span>
+
+    </div>
+
+    <div class="merch">
+
+      <img src="/img/buy-comics-merchandise.png" alt="immagine merchandise comics">
+      <span class="white">DC MERCHANDISE</span>
+
+    </div>
+
+    <div class="merch">
+
+      <img src="/img/buy-comics-subscriptions.png" alt="immagine subscrption comics">
+      <span class="white">SUBSCRIPTION</span>
+
+    </div>
+
+    <div class="merch">
+
+      <img src="/img/buy-comics-shop-locator.png" alt="immagine shop location">
+      <span class="white">COMICS SHOP LOCATION</span>
+
+    </div>
+
+    <div class="merch">
+
+      <img class="carta" src="/img/buy-dc-power-visa.svg" alt="immagine carta di credito">
+      <span class="white">DC POWER VISA</span>
+
+    </div>
+
+  </div>
 </template>
 
 <style lang="scss">

@@ -75,3 +75,36 @@ nav {
         }
     }
 }
+
+.bg-blue {
+
+    background-color: rgb(2 130 249);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 5%;
+
+    .merch {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            height: 4rem;
+        }
+
+        .carta {
+            height: 3rem;
+        }
+
+        span {
+            margin-left: 10px;
+        }
+    }
+}
+
+.white {
+    color: white;
+}
