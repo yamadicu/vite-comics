@@ -96,11 +96,11 @@ header {
                 }
 
                 &.active {
-                    border-bottom: 3px solid blue;
+                    border-bottom: 3px solid rgb(2 130 247);
                 }
 
                 &.active a {
-                    color: blue;
+                    color: rgb(2 130 247);
                 }
             }
         }
