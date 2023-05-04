@@ -1,45 +1,17 @@
 <script>
+import HeaderComp from './components/HeaderComp.vue'
 
+export default {
+  name: "app",
+  components: {
+    HeaderComp
+  }
+}
 </script>
 
 <template>
   <!-- NAVBAR -->
-  <nav>
-    <img src="/img/dc-logo.png" alt="logo dc">
-
-    <ul>
-      <li>
-        <a href="#">CHARACTERS</a>
-      </li>
-      <li>
-        <a href="#">COMICS</a>
-      </li>
-      <li>
-        <a href="#">MOVIES</a>
-      </li>
-      <li>
-        <a href="#">TV</a>
-      </li>
-      <li>
-        <a href="#">GAMES</a>
-      </li>
-      <li>
-        <a href="#">COLLECTIBLES</a>
-      </li>
-      <li>
-        <a href="#">VIDEOS</a>
-      </li>
-      <li>
-        <a href="#">FANS</a>
-      </li>
-      <li>
-        <a href="#">NEWS</a>
-      </li>
-      <li>
-        <a href="#">SHOP</a>
-      </li>
-    </ul>
-  </nav>
+  <HeaderComp />
 
   <!-- CONTENT -->
   <div class="content">
@@ -86,6 +58,7 @@
 
   </section>
 
+  <!-- LISTE DI LINK -->
   <section id="riassunto">
 
     <div id="last">
@@ -197,6 +170,27 @@
     </div>
 
   </section>
+
+  <!-- ISCRIZIONE E SOCIAL -->
+  <footer>
+
+    <div id="finale">
+
+      <button>
+        <span class="white">SIGN-UP NOW!</span>
+      </button>
+
+      <div>
+        <span id="follow">FOLLOW US</span>
+        <img src="/img/footer-facebook.png" alt="social facebook">
+        <img src="/img/footer-twitter.png" alt="social twitter">
+        <img src="/img/footer-youtube.png" alt="youtube logo">
+        <img src="/img/footer-pinterest.png" alt="social pinterest">
+        <img src="/img/footer-periscope.png" alt="periscope logo">
+      </div>
+
+    </div>
+  </footer>
 </template>
 
 <style lang="scss">
