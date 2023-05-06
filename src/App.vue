@@ -2,14 +2,16 @@
 import HeaderComp from './components/HeaderComp.vue'
 import MainComp from './components/MainComp.vue'
 import IconComp from './components/IconComp.vue'
-import FooterComp from './components/FooterComp.vue';
+import FooterComp from './components/FooterComp.vue'
+import FumettiComp from './components/FumettiComp.vue';
 export default {
   name: "app",
   components: {
     HeaderComp,
     MainComp,
     IconComp,
-    FooterComp
+    FooterComp,
+    FumettiComp
   }
 }
 </script>
